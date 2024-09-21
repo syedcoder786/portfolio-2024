@@ -16,7 +16,7 @@ interface HorizontalCardProps {
   skills: string[];
 }
 
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 const HorizontalCard: React.FC<HorizontalCardProps> = ({
   title,
@@ -25,20 +25,20 @@ const HorizontalCard: React.FC<HorizontalCardProps> = ({
   skills,
 }) => {
   return (
-    <motion.div
-      initial={{
-        opacity: 0,
-        x: -500,
-      }}
-      whileInView={{
-        opacity: 1,
-        x: 0,
-      }}
-      transition={{
-        duration: 1,
-        delay: 0.5,
-      }}
-      viewport={{ once: true }}
+    <div
+      // initial={{
+      //   opacity: 0,
+      //   x: -500,
+      // }}
+      // whileInView={{
+      //   opacity: 1,
+      //   x: 0,
+      // }}
+      // transition={{
+      //   duration: 1,
+      //   delay: 0.5,
+      // }}
+      // viewport={{ once: true }}
       className="flex max-md:flex-col items-center bg-gray-800 text-white p-6 rounded-lg shadow-lg mb-6 relative"
     >
       <div className="w-1/4">
@@ -81,7 +81,7 @@ const HorizontalCard: React.FC<HorizontalCardProps> = ({
           </div>
         )}
       </div>
-    </motion.div>
+    </div>
   );
 };
 

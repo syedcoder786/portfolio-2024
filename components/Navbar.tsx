@@ -95,14 +95,14 @@ const Navbar: React.FC = () => {
             <span className=" hover:text-yellow-400">Education</span>
           </Link>
           <Link
-            href="/"
+            href="/projects"
             className="text-white flex items-center hover:scale-110"
           >
             <FaFolderOpen className="inline-block mr-2 text-blue-400 text-lg" />
             <span className=" hover:text-blue-400">Projects</span>
           </Link>
           <Link
-            href="/"
+            href="/contact"
             className="text-white flex items-center hover:scale-110"
           >
             <FaEnvelope className="inline-block mr-2 text-purple-400 text-lg" />
